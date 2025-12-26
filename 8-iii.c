@@ -22,6 +22,9 @@ int main()
     struct Structure p;
     union Union q;
 
+    printf("%zu\n", sizeof(p));
+    printf("%zu\n", sizeof(q));
+
     p.ID = 802520205101059;
     strcpy(p.name, "Habibullah");
     p.sex = 'M';
